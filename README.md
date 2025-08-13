@@ -1,6 +1,6 @@
 # CETSimulateSheet(Collab)
 
-这里存放着某两个人的暑假生物作业$\dots$
+这里存放着某两个人的暑假生物作业……
 
 ## 源LaTeX代码
 
