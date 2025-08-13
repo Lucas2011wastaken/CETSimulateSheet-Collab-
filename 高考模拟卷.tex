@@ -1,0 +1,69 @@
+\documentclass[UTF8, 10pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage[version=4]{mhchem}% 规范：chemfig中键线式放缩为0.5；结构简式放缩为0.6；高分子链节\polymerdelim[delimiters={[]},height=4pt, depth=4pt, indice=n]{left}
+\usepackage{chemfig}
+\setcharge{shortcuts=true}
+\usepackage{geometry}
+\usepackage{changepage}
+\usepackage{paralist}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polyglossia}
+\usepackage{extarrows}
+\setotherlanguages{russian}
+\newfontfamily\russianfont{Times New Roman}
+\geometry{left=1.27cm, right=1.27cm, top=1.27cm, bottom=1.5cm}
+\linespread{1.5}
+\title{\vspace{-2em} 高考模拟卷 }
+\author{盛炯元 \quad 杨元谦}
+\date{\textcolor{white}{\today}\vspace{-3em}}
+\pagestyle{plain}
+
+\newcommand{\blank}{ \underbar{\quad$\blacktriangle$\quad} }% 空格样式
+\newcommand{\fs}[1]{{\fangsong #1}}% 使用仿宋
+\newcommand{\circled}[1]{{\small{\textcircled{\tiny{#1}}}}}% 圈圈数字
+\newcommand{\Romannumeral}[1]{\uppercase\expandafter{\romannumeral#1}}% 大写罗马数字
+\newcommand{\chdots}{…\hspace{-0.15em}…}% 中文省略号调教
+
+\theoremstyle{definition}
+\newtheorem{exercise}{}
+\newtheorem{subexercise}{}[exercise]% 用于兼容编号错误或是内含的高考题等
+
+\theoremstyle{remark}
+\newtheorem*{answer}{【答案】}
+\newtheorem*{point}{【考点】}      % 考点&易错点
+\newtheorem*{method}{【方法】}     %（可选）
+\newtheorem*{explanation}{【解析】}     %
+
+\theoremstyle{plain}
+\newtheorem*{note}{【注】}  %（可选）
+
+\begin{document}
+\maketitle
+
+\begin{exercise}
+蛋白质是结构和功能多样的生物大分子，下列叙述错误的是\quad(\quad)
+\begin{adjustwidth}{4em}{}
+        \begin{asparaenum}[A. ]
+            \item example
+            \item 二硫键的断裂不会改变蛋白质的空间结构
+            \item 向蛋白质溶液中加入浓的硫酸铜溶液可使蛋白质发生盐析
+            \item example
+        \end{asparaenum}
+\end{adjustwidth}
+\begin{answer}
+    B
+\end{answer}
+\begin{point}
+    蛋白质
+\end{point}
+\begin{explanation}
+    explanation
+\end{explanation}
+\end{exercise}
+
+\end{document}
