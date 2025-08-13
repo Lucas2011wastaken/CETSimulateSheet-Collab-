@@ -4,7 +4,7 @@
 
 ## 源LaTeX代码
 
-在这里：
+在这里：https://github.com/Lucas2011wastaken/CETSimulateSheet-Collab-/blob/master/%E9%AB%98%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7.tex
 
 ## 编译好的PDF（谦谦看这个就好）
 
