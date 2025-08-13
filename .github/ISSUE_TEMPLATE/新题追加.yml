@@ -10,7 +10,7 @@ body:
   attributes:
     label: 提交前必读
     options: 
-      - label: 一次只能提交一道题哦！
+      - 一次只能提交一道题哦！
       required: true
 - type: textarea
   label: 详细信息
