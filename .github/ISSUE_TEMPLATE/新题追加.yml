@@ -27,6 +27,5 @@ body:
       
       **解析**
       广告词大概就是这样写的罢🧔🏻‍♂️
-  render: markdown
   validations:
     required: true
