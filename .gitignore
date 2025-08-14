@@ -2,3 +2,4 @@
 *.gz
 *.log
 *.synctex(busy)
+*.code-workspace
