@@ -2,12 +2,25 @@
 
 这里存放着某两个人的暑假生物作业……
 
-## 源LaTeX代码
+## 基本信息
 
-在这里：https://github.com/Lucas2011wastaken/CETSimulateSheet-Collab-/blob/master/%E9%AB%98%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7.tex
+Words in text: 7860
+Words in headers: 5
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 11
+Number of math inlines: 48
+Number of math displayed: 0
 
-## 编译好的PDF（谦谦看这个就好）
+## 下载
 
-在这里：https://github.com/Lucas2011wastaken/CETSimulateSheet-Collab-/blob/master/%E9%AB%98%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7.pdf
+pdf版本可以在release中找到：https://github.com/Lucas2011wastaken/CETSimulateSheet-Collab-/releases/latest
 
-(如果提示什么渲染失败就下载下来打开)
+## 编译
+
+1. 将本项目完整克隆
+2. cd 到项目目录
+3. 用XeLaTeX进行编译，请保证assists文件夹位于同级且没有损坏
+4. 忽略错误：<code>LaTeX: `!h' float specifier changed to `!ht'.</code>
+
+**注意：release中的pdf是在5.15.167.4-microsoft-standard-WSL2中编译、已配置使用Windows字体。-**
